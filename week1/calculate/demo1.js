@@ -5,7 +5,7 @@ var perimeter=document.getElementsByClassName('rectangle_perimeter');
 var area=document.getElementsByClassName('rectangle_area');
 
 calc.onclick=function(){
-  perimeter.val()=2*width.val()+2*height.val();
-  area.val()=width.val()*height.val();
-}
+  perimeter.value=2*width.value+2*height.value;
+  area.value=width.value*height.value;
+};
 
